@@ -48,6 +48,15 @@ const projects = [
         liveUrl: "https://github.com/Abhishekbabu052/Artex",
         githubUrl: "https://github.com/Abhishekbabu052/Artex",
     },
+    {
+        number: "06",
+        title: "TalkWise",
+        description:
+            "MERN-based web discussion platform featuring authenticated user participation. Backend deployed on Render for hosting and API access.",
+        technologies: ["MongoDB", "Express", "React", "Node.js", "Render"],
+        liveUrl: "https://talkwise-ten.vercel.app/",
+        githubUrl: "https://github.com/Abhishekbabu052/TalkWise",
+    },
 ];
 
 type Project = (typeof projects)[number];
